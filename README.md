@@ -1,21 +1,20 @@
 # Na's Place Cookbook
 
-Na's personal cookbook and kitchen reference website. This is a separate project from the Juan's El Caporal restaurant website.
+Na's personal cookbook and kitchen reference website. A separate project from the Juan's El Caporal restaurant website.
 
-## Sections
-- Recipes: Soups, Pasta, and Main Dishes
-- Spice Library and Na's Flavor Philosophy
-- Kitchen Tips, Warnings & Lessons Learned
-- Pantry and Kitchen Tools
-- Cookbook Editor and Design Studio (prototype features)
+## Website files
+
+The website prototype is **already uploaded** to this repository as [`index.html`](./index.html) on `main`. It contains the cookbook homepage, recipes, Spice Library, kitchen tips and warnings, pantry, Cookbook Editor, and Design Studio.
 
 ## Status
-A standalone HTML/CSS/JavaScript website prototype has been created and saved in the Na's Place Cookbook project library, but **has not yet been added to this repository or deployed from it**. The prototype stores edits locally in the browser; it does not yet provide account authentication, a shared database, or cloud backup.
 
-## Next steps
-1. Add the reviewed website prototype as `index.html`.
-2. Test the site on mobile and desktop.
-3. Configure hosting and confirm its public URL.
-4. Add secure authentication and durable storage before treating editor features as private or synchronized.
+- **GitHub repository:** created; website prototype uploaded.
+- **GitHub Pages / public website:** not yet confirmed as enabled or deployed.
+- **Browser testing:** initial syntax checks completed; full mobile visual and interaction testing still needed.
+- **Editor privacy and storage:** prototype currently uses browser-local storage; it does not have secure accounts, a shared database, or cloud backup. A published static site should not be treated as a private editor.
 
-Do not publish private working recipe notes without review.
+## Preview / publication
+
+To publish this static `index.html` through GitHub Pages, open repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, then `main` and `/(root)` if these choices are available for your GitHub plan.
+
+Do not publish private working recipe notes without review. 
